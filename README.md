@@ -4,50 +4,38 @@ This project explores the Netflix Movies and TV Shows dataset using Python. It p
 
 ---
 
-## 📁 Dataset
-- Source: [Kaggle - Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
-- Fields: Title, Type, Country, Rating, Date Added, Duration, etc.
+## 📂 Dataset
+
+Netflix Movies and TV Shows dataset downloaded from [Kaggle](https://www.kaggle.com/shivamb/netflix-shows).
 
 ---
 
-## 📊 EDA Highlights
-- Number of titles released per year 📆
-- Distribution of content types (Movies vs TV Shows) 🍿
-- Top producing countries 🌎
-- Most common rating categories 🔠
+## 📊 Visualizations
+
+Here are some example visualizations generated in this project:
+
+### 1️⃣ Titles by Country
+![Countries Netflix Titles](Countries_Netflix_Titles.png)
+
+### 2️⃣ Movies vs TV Shows
+![Movies or TV Shows](Movies_or_TVshows.png)
+
+### 3️⃣ Titles Released per Year
+![Titles Released per Year](Netflix_Titles_Released_per_year.png)
+
+### 4️⃣ Tracks Released per Year
+![Tracks Released per Year](Netflix_tracks_released-per_year.png)
 
 ---
 
-## 🤖 Machine Learning
-- Simulated IMDb ratings (for learning purposes)
-- Feature engineering (e.g., encoding, extracting duration)
-- Models used: Linear Regression, Random Forest
-- Evaluation metrics: MAE, RMSE, R² Score
+## 🚀 How to Run
 
----
+1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/yourusername/Netflix_Rating_Prediction.git
+2️⃣ Open the notebook
+Open Netflix_Rating_Prediction.ipynb in Google Colab or Jupyter Notebook.
 
-## 🛠️ Tools & Libraries
-- Python, Pandas, NumPy
-- Seaborn, Matplotlib
-- Scikit-learn
-- Google Colab
+3️⃣ Run the notebook
+Run cells step-by-step to reproduce the EDA and model training.
 
----
-
-## 📸 Screenshots
-| Titles Released Per Year | Model Evaluation |
-|--------------------------|------------------|
-| ![titles](assets/chart_titles_per_year.png) | ![model](assets/model_results.png) |
-
----
-
-## 🧠 Author
-**Gargee Sharma**  
-Connect on [LinkedIn](https://www.linkedin.com/in/gargeesharma14)  
-
----
-
-## ✅ How to Run
-1. Upload `netflix_titles.csv` to Colab
-2. Run the Jupyter notebook: `Netflix_Rating_Prediction.ipynb`
-3. View visualizations and model output
